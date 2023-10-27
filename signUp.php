@@ -1,33 +1,22 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title></title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-<div class = "container"> 
-	<h1> Sign Up </h1>
-	<p>Please fill out this page to create your account</p>
-	<hr>
-
-	  <label for="email"><b>Email</b></label>
-	  <input type = "email" placeholder="Enter Email" name="email" required></input>
-
-	<label for = "password"><b>Password</b?></label>
-	  <input type = "password" placeholder = "Enter Password" name = "password" required></input>
-
-	 <label>
-	      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-	    </label>
-
-	<div class ="clearFix">
-	  <button type = "button" class = "cancelbtn">Cancel</button>
-	  <button type = "button" class = "signupbtn">Sign Up</button>
-	</div>
-</div>
-</body>
-
-</html>
+  <title> Sign Up Form </title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+  <body>
+    
+   <div class="sign-up-form">
+     <h1> Sign Up</h1>
+     <form>
+       <input type = "email" class = "input-box" placeholder = "Your Email">
+       <input type = "password" class = "input-box" placeholder ="Password">
+       <div class = "terms"><p><span><input type="checkbox"></span>I agree to the terms and service</p></div>
+       <button type="button" class="signUp-btn">Sign Up</button>
+       <hr>
+       <p class = "or">Or</p>
+       <button type="button" class="login-btn">Login with Google</button>
+       <p class = "orSignIn">Do you have an account? <a href="#">Sign in</a>
+     </form>
+    </div>
+</html> 
