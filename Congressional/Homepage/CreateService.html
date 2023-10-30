@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find Community Service Near you!</title>
+
+    <!-- CSS -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+    <!-- Nav bar -->
+    <div class = "title">
+      <h1>Volunteer Time</h1>
+    </div>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="#calendar">Calendar</a>
+      <a href="CreateService.html">Create a Service
+      <a href="../Sign-Up/sign-up.html">Sign Up</a>
+    </div>
+  </head>
+
+  <body>
+    <div class="service_signup">
+      <h2 style="font-size: 50px">CREATE A SERVICE!</h2>
+    <div class="create_container">
+      <form action="placeholder" method="POST">
+        <div>
+          <!-- Organization Name for form -->
+          <input type="name" id="name" name="Name"  placeholder="Organization Name" required>
+        </div>
+        <div>
+          <!-- Title of event for form -->
+          <input type="header" id="title" name="Title"  placeholder="Title of Event" required>
+        </div>
+        <div>
+          <!-- Phone number for form -->
+          <input type="tel" id="pnumber" name="Phone Number"  placeholder="Phone Number" required>
+        </div>
+        <div>
+          <!-- Email for form -->
+          <input type="email" id="email" name="Email"  placeholder="Email" required>
+        </div>
+        <div>
+          <!-- Message for form -->
+          <textarea id="message" name="Message" placeholder="Description" rows="8" cols="33" required></textarea>
+        </div>
+        <div>
+          <!-- Capacity of volunteers for Form-->
+          <label>Maximum number of Volunteers:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="100" required>
+        </div>
+        <div>
+          <!-- Date for Form-->
+          <label>Date of Event:</label>
+          <input type="date" id="date" required>
+        </div>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

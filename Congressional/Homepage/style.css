@@ -1,3 +1,10 @@
+* {
+  font-family: system-ui;
+}
+
+
+/* Website Navigation Bar CSS */
+
 h1 {
   font-family: system-ui;
   background: #black;
@@ -5,6 +12,8 @@ h1 {
   text-align: center;
   height: 100px;
   margin-bottom: -30px;
+  margin-left: -30px;
+  margin-right: -30px;
   background-color: #5EB1BF;
 }
 .navbar {
@@ -58,4 +67,43 @@ h1 {
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Create Service Form CSS */
+
+.service_signup {
+  margin-left: 25%;
+  margin right: 25%;
+  margin-top: 3%;
+  border-radius: 10px;
+  background-color: #165959;
+  height: 900px;
+  width: 50%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+}
+
+.service_signup h2, label{
+  text-align: center;
+  color: white;
+}
+
+.service_signup input[type=name], input[type=email], input[type=tel], input[type=header], textarea {
+  width: 90%;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 12px 2px;
+  padding: 8px 12px;
+}
+
+.service_signup input[type=submit], input[type=date], input[type=number] {
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.service_signup input[type=number] {
+  width: 7%;
 }
